@@ -1,7 +1,11 @@
-## makeCacheMatrix 
-## 
+## makeCacheMatrix. Solves for the inverse of a matrix and caches 
+## the result
 
-## Write a short comment describing this function
+
+## Provides Function to both 'get' and 'set' the matrix and the 
+## inverse of the matrix
+
+## 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -18,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Checks of the inverse has already been calculated. If yes,
+## Checks if the inverse has already been calculated. If yes,
 ## returns the cached verion, otherwise calculated the 
 ## inverse with solve()
 
